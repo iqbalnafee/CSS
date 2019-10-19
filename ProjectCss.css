@@ -1,0 +1,13 @@
+#mc header{
+    
+    background-color: white;
+    text-align: center;
+    color: blue;
+    font-style: normal;
+    font-family: cursive;
+    margin:  auto;
+}
+
+body{
+    width: 760px;
+}

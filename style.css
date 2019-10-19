@@ -20,3 +20,91 @@ ol{
     padding: 20px;
     color: white;
 }
+body#idClassPage{
+    
+    background-color: aquamarine
+    
+}
+/* comment in CSS */
+
+/*Style for id and Class*/
+
+#main-title{
+    color: #fc3;
+    background: #353535;
+    padding: 10px;
+    margin: 20px
+}
+
+.sectionHeader{
+    
+    color: fuchsia;
+    border: solid 6px pink;
+    text-align: center;
+    padding: 10px 20px 30px 40px
+    
+}
+
+/* style for the descendent css*/
+
+.primary-box
+{
+    background-color: white;
+    border: solid 10px #333;
+    padding: 20px;
+}
+
+.secondary-box{
+    
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-size: 30px;
+}
+
+/*font-size don not effect <p> tag in secondary box. since it already define in style.css previously. so we need to descendent it by follwing manner*/
+
+.secondary-box p{
+    font-size: 14px;
+    font-style:normal;
+}
+
+.secondary-box p em{
+    color: #fc3fc3;
+}
+/*but this way all em tag will be pink in secondary box. if we only do it to some em tag then we should follow the follwing manner*/
+
+
+/* style for the grouping selectors */
+
+
+.primary-box,.secondary-box{
+    
+     margin: 30px 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    
+    text-align: center;
+    border-bottom: solid 3px red;
+    paddingL 0 0 10px
+}
+
+#mainContainer{
+    width: 960px;
+    margin: 0 auto;/*when strech it calculate to going center position*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
