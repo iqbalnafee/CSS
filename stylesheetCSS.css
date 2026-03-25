@@ -1,0 +1,113 @@
+* {
+    
+    margin:0 ;
+    padding: 0 ;
+    border: 0 ;
+    font-weight: normal;
+    font-size: 18px;
+    
+}
+
+body{
+    
+    padding: 40px;
+    font-family: Georgia, Times,serif;
+    color: #373737;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bolder; 
+    margin: 30px 0px;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h1{
+    font-size: 3.6em;
+}
+
+h3{
+    font-size: 1.6em;
+    letter-spacing: -1 px;
+    text-indent: 80px;
+    line-height: 1.3;/*1.3 times of font size*/
+}
+span{
+    text-decoration: line-through;
+}
+
+em{
+    text-transform: capitalize;   
+}
+strong{
+    font-weight: bold;
+}
+
+/*CSS Border*/
+
+.border-box{
+    
+    background: #fc3;
+    margin: 0 0 20px;
+    padding: 40px;
+    width: 320px;
+    text-align: center
+}
+
+
+#box1 { border: solid 1px #000;}
+#box2 { border: dashed 1px #000;}
+#box3 { border: dotted 1px #000;}
+#box4 { border: double 10px #000;}
+
+#box5 { border: solid 4px #000;}
+#box6 { border: dashed 4px #000;}
+#box7 { border: dotted 4px #000;}
+#box8 { border: double 40px #000;}
+
+
+#style-links{
+    background: white;
+    text-align: center;
+    width: 640px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/*unvisited Links*/
+
+a:link{
+    
+    color:#fc3;
+    display: inline-block;
+}
+
+/*visited links*/
+
+a:visited{
+    color:#fc3;
+}
+
+/*hovered or mouse over*/
+
+a:hover{
+
+    color: aqua;
+     
+}
+
+/*active or mouse click*/
+a:active{
+    color: black;
+}
+#link-1:link{
+    background: #333;
+}
+#link-1:hover{
+    background: #fc3;
+    color: white;
+}
+

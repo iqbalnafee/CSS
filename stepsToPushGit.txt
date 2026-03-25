@@ -1,0 +1,6 @@
+1. First Create a git repo in github
+2. Open git bash. Then run the command "git pull repo <url>"
+3. Inside the local git repo then run git add . command,git commit -m" ",git pull
+
+
+To push local folder to git repo then first clone this floder then push
